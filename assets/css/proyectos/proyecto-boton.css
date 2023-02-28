@@ -9,6 +9,8 @@
     opacity: 0;
     transition: 1s;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--oscuro);
 }
 .proyecto__btn:hover{
     outline:2px solid var(--verde);
