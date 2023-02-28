@@ -1,0 +1,15 @@
+.nav-mobile__link-ico{
+    color: var(--oscuro);
+    position: relative;  
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em; 
+    transition: 0.5s;
+}
+.browser-mobile ul li.active a .nav-mobile__link-ico{
+    transform: translateY(43px);
+}
+.browser-mobile ul li.active a .nav-mobile__link-text{
+    transform:translateY(0);
+    opacity: 1;
+}

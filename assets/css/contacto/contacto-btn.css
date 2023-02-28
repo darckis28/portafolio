@@ -1,0 +1,18 @@
+.contacto_btn{
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0.354em;
+    background: linear-gradient(45deg, #45C4B0,#9AEBA3);
+    border-radius: 5px;
+    color: #797878;
+    transition: all .5s ease;
+}
+.contacto_btn:hover{
+    outline: 2px solid var(--verde);
+    color:var(--verde) ;
+    background: none;
+}

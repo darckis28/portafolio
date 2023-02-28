@@ -1,0 +1,29 @@
+.proyecto__item{
+    width: 310px;
+    height: 400px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 13px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s;
+    cursor: pointer;
+}
+.proyecto__item:nth-child(1){
+    background-image: url(../../img/persona.png);
+    background-size: cover;
+
+}
+.proyecto__item:hover{
+    background-color: #aaa;
+    background-image: none;
+}
+.proyecto__item:hover h3{
+    opacity: 1;
+}
+.proyecto__item:hover a{
+    opacity: 1;
+}

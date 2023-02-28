@@ -1,0 +1,6 @@
+.rodapie__text{
+    text-align: center;
+    color: var(--claro);
+    letter-spacing: 0.25em;
+    font-weight: 100;
+}

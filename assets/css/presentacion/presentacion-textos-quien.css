@@ -1,0 +1,24 @@
+.presentacion-textos__quien{
+    color: var(--azul-oscuro);
+    font-weight: 500;
+    margin: 20px 0;
+}
+.presentacion-textos__quien span{
+    color: var(--verde);
+    font-weight: 700;
+}
+@media (min-width:0px) {
+    .presentacion-textos__quien{
+        font-size: 3em;
+    }
+}
+@media (min-width:769px) {
+    .presentacion-textos__quien{
+        font-size: 3em;
+    }
+}
+@media (min-width:1025px) {
+    .presentacion-textos__quien{
+        font-size: 4.5em;
+    }
+}

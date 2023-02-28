@@ -1,0 +1,9 @@
+.rodapie-sociales{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.rodapie-sociales a{
+    font-size: 3em;
+    margin-right: 15px;
+    color: var(--claro);
+}

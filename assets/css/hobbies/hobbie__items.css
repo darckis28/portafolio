@@ -1,0 +1,19 @@
+.hobbie__items{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:20px ;
+    background: #ffffff;
+    box-shadow: 10px 10px 13px rgba(0, 0, 0,.4);
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.hobbie__items:hover h3{
+    color: var(--verde);
+}
+.hobbie__items:hover span{
+    color: var(--verde);
+}

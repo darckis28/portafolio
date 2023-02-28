@@ -1,0 +1,8 @@
+.proyecto__text{
+    font-size: 2em;
+    font-weight: 100;
+    letter-spacing: 0.114em;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: 1s;
+}

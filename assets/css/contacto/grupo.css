@@ -1,0 +1,52 @@
+.grupo{
+    position: relative;
+    margin: 45px;
+}
+.grupo input{
+    background: transparent;
+    outline: none;
+    color: #c6c6c6;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid var(--oscuro) ;
+}
+.grupo input:focus{
+    color: #5e5d5d;
+}
+.grupo label{
+    color: #c6c6c6;
+    font-size: 16px;
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    pointer-events: none;
+}
+.grupo input:focus~label,
+.grupo input:valid~label{
+    top: -14px;
+    transition: all 0.5s;
+    font-size: 12px;
+    color: var(--verde);
+}
+.barra{
+    display: block;
+    position: relative;
+    width: 100%;
+    
+}
+ .barra::before{
+    content: "";
+    width: 0% ;
+    height: 2px;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(45deg, #45C4B0,#9AEBA3);
+    transition: all .5s ease;
+}
+ .form input:focus~.barra::before{
+    width: 108%;
+    
+    
+}

@@ -1,0 +1,19 @@
+.skills__item{
+    width:310px ;
+    height: 310px;
+    border-radius:20px ;
+    box-shadow: 10px 10px 13px rgba(0, 0, 0,.4);
+    margin-bottom: 25px;
+    cursor: pointer;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skills__item:hover span {
+    color: var(--verde);
+}
+.skills__item:hover h3{
+    color: var(--verde)
+}

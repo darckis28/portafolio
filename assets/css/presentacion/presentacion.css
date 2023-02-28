@@ -1,0 +1,22 @@
+.presentacion{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+@media (min-width:0px) {
+    .presentacion{
+        flex-direction: column;
+        margin-top: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (min-width:769px) {
+    .presentacion{
+        margin-top: 0px;
+        flex-direction: row;
+        height:calc( 100vh - 70px);
+    }
+}
+
+

@@ -1,0 +1,20 @@
+.contacto_asunto{
+    resize: none;
+    width: 80%;
+    height: 120px;
+    color:  #5e5d5d;
+    outline: #5e5d5d 1px solid;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 2em ;
+    background: none;
+    border-radius: 5px;
+    
+}
+.contacto_asunto:focus{
+    outline: var(--verde) solid 1px;
+}
+.contacto_asunto::placeholder{
+    color:  #c6c6c6;
+}

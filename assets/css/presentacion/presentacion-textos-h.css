@@ -1,0 +1,24 @@
+.presentacion-textos__h{
+    color: var(--oscuro);
+    font-size: 2.5em;
+    display: block;
+    position: relative;
+    letter-spacing: 5px;
+}
+.presentacion-textos__h::after{
+    content: "";
+    width: 1px;
+    border-left:5px solid ;
+    font-size: 0.7em;
+    margin-left: 2px;
+    animation: escritura 0.8s  linear infinite;
+    color: var(--azul-claro);
+}
+@keyframes escritura {
+    0%{
+        opacity: 0;;
+    } 
+    100%{
+        opacity: 1;;
+    }   
+}

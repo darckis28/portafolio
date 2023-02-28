@@ -1,0 +1,16 @@
+.nav-desktop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+@media (min-width:769px) {
+    .nav-desktop{
+        gap: 10px;
+    }
+}
+@media (min-width:1025px) {
+    .nav-desktop{
+        gap: 30px;
+    }
+}

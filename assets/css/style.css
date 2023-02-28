@@ -1,0 +1,17 @@
+:root{
+    --fondo:#f6f6f6;
+    --oscuro:#515254;
+    --claro:#cfd0d2;
+    --verde:#45C4B0;
+    --azul-oscuro:#062635;
+    --azul-claro:#13678A;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'roboto', sans-serif;
+    background: var(--fondo);
+    width: 100%;
+    box-sizing: border-box ;
+}

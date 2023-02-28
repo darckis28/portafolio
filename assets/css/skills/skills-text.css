@@ -1,0 +1,6 @@
+.skills__text{
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    font-weight: 100 ;
+    color: var(--oscuro);
+}

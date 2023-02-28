@@ -1,0 +1,7 @@
+.nav-desktop__list-links{
+    text-decoration: none;
+    color: var(--oscuro);
+}
+.nav-desktop__list-links:hover{
+    color: var(--verde);
+}

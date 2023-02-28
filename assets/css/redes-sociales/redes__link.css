@@ -1,0 +1,7 @@
+.redes__link{
+    color: var(--oscuro);
+    font-size: 1.5rem;
+}
+.redes__link:hover{
+    color: var(--verde);
+}

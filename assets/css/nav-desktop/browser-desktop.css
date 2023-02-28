@@ -1,0 +1,11 @@
+
+@media (min-width:0){
+    .browser-desktop{
+        display: none;
+    }
+}
+@media (min-width:769px){
+    .browser-desktop{
+        display: block;
+    }
+}

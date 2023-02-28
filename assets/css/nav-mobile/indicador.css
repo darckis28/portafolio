@@ -1,0 +1,24 @@
+.indicador{
+    background: var(--verde);
+    position: absolute;
+    border-radius: 50%;
+    transition: 0.5s;
+    outline: 6px solid var(--fondo);
+    opacity: 1;
+}
+@media (min-width: 0px ) {
+    .indicador{
+        width: 40px;
+        height: 40px;
+        top: 49px;
+        left: 14px; 
+    }
+}
+@media (min-width: 428px ) {
+    .indicador{
+        width: 40px;
+        height: 40px;
+        top: 49px;
+        left: 32px;
+    }
+}

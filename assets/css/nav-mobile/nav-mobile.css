@@ -1,0 +1,19 @@
+.nav-mobile{
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+@media (min-width: 0px ) {
+    .nav-mobile{
+        width: 320px;
+        justify-content: space-around; 
+
+    }
+}
+@media (min-width: 428px ) {
+    .nav-mobile{
+        width: 512px;
+        justify-content: space-around;   
+    }
+}

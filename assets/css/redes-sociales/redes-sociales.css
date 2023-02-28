@@ -1,0 +1,16 @@
+.redes-sociales{
+    display: flex;
+    gap: 30px;
+}
+
+@media (min-width:0) {
+    .redes-sociales{
+         display: none;
+    }
+}
+@media (min-width:769px) {
+    .redes-sociales{
+         display: flex;
+    }
+}
+   

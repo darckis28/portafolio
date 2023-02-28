@@ -1,0 +1,17 @@
+.logo-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+@media (min-width:0) {
+    .logo-contenedor{
+         display: none;
+    }
+}
+@media (min-width:769px) {
+    .logo-contenedor{
+         display: flex;
+    }
+}
+   

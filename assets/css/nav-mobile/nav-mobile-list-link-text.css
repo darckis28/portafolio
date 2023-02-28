@@ -1,0 +1,8 @@
+.nav-mobile__link-text{
+    color: var(--oscuro);
+    font-weight: 100;
+    position: absolute;
+    transform:translateY(-15px) ;
+    opacity: 0;
+    transition: 0.5s;
+}

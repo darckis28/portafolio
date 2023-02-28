@@ -1,0 +1,14 @@
+.nav-mobile__link{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;  
+}
+@media screen and (min-width:0) {
+    .nav-mobile__link{
+        width: 50px;
+        height: 50px;
+    }
+}
