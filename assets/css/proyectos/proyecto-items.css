@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 .proyecto__item:nth-child(1){
-    background-image: url(../../img/persona.png);
+    background-image: url(../../img/encriptador.jpeg);
     background-size: cover;
 
 }
