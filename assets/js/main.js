@@ -21,6 +21,7 @@ const parrafo = document.getElementById("msj");
         if(nombre.value.length <= 6){
                 warnings += `El nombre no es valido<br>`
                 entrar= true;
+                e.preventDefault();
         }else{
                 warnings=""    
         }
@@ -28,6 +29,7 @@ const parrafo = document.getElementById("msj");
         if(!val.test(email.value)){
                 warnings+= `El email no es valido<br>`
                 entrar= true;
+                e.preventDefault();
         }else{
                 warnings=""
         }
